@@ -12,7 +12,7 @@ http.createServer(function (request, response) {
       show_404(request, response);
       break;
   }
-}).listen(8000);
+}).listen(process.env.PORT||9000);
 
 function show_index(request, response) {
   sys.puts("Serving index page");

@@ -1,0 +1,23 @@
+{
+  "name": "node-by-example",
+  "version": "1.0.0",
+  "description": "node.js by example - simple code examples of the available features of node.js These are the code examples for the Node By Example series available at:  http://blog.osbutler.com/tags/node-by-example/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./08_http/simple_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://a80f2c05a8e69a0f744e8647365ce114cf5a7dc1@github.com/Hendrik/node-by-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hendrik/node-by-example/issues"
+  },
+  "homepage": "https://github.com/Hendrik/node-by-example",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
